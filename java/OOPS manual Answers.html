@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>OOPS manual Answers.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="generator" content="SynEdit HTML exporter" />
+<style type="text/css">
+<!--
+body { color: #000000; background-color: #FFFFFF; }
+.cpp1-assembler { color: #0000FF; }
+.cpp1-character { color: #000000; }
+.cpp1-comment { color: #0078D7; font-style: italic; }
+.cpp1-float { color: #800080; }
+.cpp1-hexadecimal { color: #800080; }
+.cpp1-identifier { color: #000000; }
+.cpp1-illegalchar { color: #000000; }
+.cpp1-number { color: #800080; }
+.cpp1-octal { color: #800080; }
+.cpp1-preprocessor { color: #008000; }
+.cpp1-reservedword { color: #000000; font-weight: bold; }
+.cpp1-space { background-color: #FFFFFF; color: #000000; }
+.cpp1-string { color: #0000FF; font-weight: bold; }
+.cpp1-symbol { color: #FF0000; font-weight: bold; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<code><span style="font: 10pt Consolas;"><span class="cpp1-identifier">java answers</span><span class="cpp1-symbol">:
+
+</span><span class="cpp1-comment">/*Implementing Object Oriented concepts:*/
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Box
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> width</span><span class="cpp1-symbol">=</span><span class="cpp1-number">2</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">height</span><span class="cpp1-symbol">=</span><span class="cpp1-number">2</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">depth</span><span class="cpp1-symbol">=</span><span class="cpp1-number">2</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> writedata</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-identifier">System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">print</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;volume of box is:&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">width</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">height</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">depth</span><span class="cpp1-symbol">);
+}
+}
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> example
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[])
+{
+</span><span class="cpp1-identifier">Box mybox1</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Box</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+mybox1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">writedata</span><span class="cpp1-symbol">();
+}
+}
+</span><span class="cpp1-illegalchar">1B</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implementing </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> </span><span class="cpp1-symbol">&amp;</span><span class="cpp1-space"> objects</span><span class="cpp1-symbol">:
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> A
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> l</span><span class="cpp1-symbol">=</span><span class="cpp1-number">10</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">=</span><span class="cpp1-number">20</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> display</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-identifier">System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">l</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">);
+}
+}
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> methoddemo
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[])
+{
+</span><span class="cpp1-identifier">A a1</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> A</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> a1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">display</span><span class="cpp1-symbol">();
+}
+}
+</span><span class="cpp1-number">2</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implementing control statements</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">PROGRAM</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> If statements
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> IfTest 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main </span><span class="cpp1-symbol">(</span><span class="cpp1-space"> String args </span><span class="cpp1-symbol">[</span><span class="cpp1-space"> </span><span class="cpp1-symbol">]</span><span class="cpp1-space"> </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> x </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">4</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> y </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">10</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">x </span><span class="cpp1-symbol">&gt;</span><span class="cpp1-space"> y </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;x is greater than y&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;X is lesser than y&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+OUTPUT</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">X is lesser than Y
+Switch Statements
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> SwitchTest 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args </span><span class="cpp1-symbol">[</span><span class="cpp1-space"> </span><span class="cpp1-symbol">]</span><span class="cpp1-space"> </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">char</span><span class="cpp1-space"> ch </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> 'A'</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">switch</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ch</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> 'A'</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Value is A&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">case</span><span class="cpp1-space"> 'B'</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Value is B&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">default</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Unknown Value&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+OUTPUT </span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">Value is A
+For loop
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> ForTest 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args </span><span class="cpp1-symbol">[</span><span class="cpp1-space"> </span><span class="cpp1-symbol">]</span><span class="cpp1-space"> </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> sum </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-space"> i </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> i </span><span class="cpp1-symbol">&lt;=</span><span class="cpp1-space"> </span><span class="cpp1-number">10</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">++)</span><span class="cpp1-space"> 
+sum </span><span class="cpp1-symbol">+=</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;The sum of first 10 Nos =&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> sum </span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+Output </span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">The Sum of first </span><span class="cpp1-number">10</span><span class="cpp1-space"> Nos </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">55
+</span><span class="cpp1-identifier">While Statements
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> WhileTest 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args </span><span class="cpp1-symbol">[</span><span class="cpp1-space"> </span><span class="cpp1-symbol">]</span><span class="cpp1-space"> </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-number">1</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">while</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">&lt;=</span><span class="cpp1-number">5</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;i =&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+i</span><span class="cpp1-symbol">++;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-identifier">OUTPUT </span><span class="cpp1-symbol">:
+</span><span class="cpp1-number">1</span><span class="cpp1-space"> </span><span class="cpp1-number">2</span><span class="cpp1-space"> </span><span class="cpp1-number">3</span><span class="cpp1-space"> </span><span class="cpp1-number">4</span><span class="cpp1-space"> </span><span class="cpp1-number">5
+</span><span class="cpp1-identifier">Do statements
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> BreakLoop 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args </span><span class="cpp1-symbol">[</span><span class="cpp1-space"> </span><span class="cpp1-symbol">])</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">do</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;I&acirc;&euro;&trade;m stuck !&quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+i</span><span class="cpp1-symbol">++;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">i </span><span class="cpp1-symbol">&gt;</span><span class="cpp1-space"> </span><span class="cpp1-number">5</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">break</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">while</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">true</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+OUTPUT </span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">I&acirc;&euro;&trade;m stuck </span><span class="cpp1-symbol">!
+
+</span><span class="cpp1-illegalchar">3A</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implementation of user defined interface</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">io</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+interface area 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+final </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> pi</span><span class="cpp1-symbol">=</span><span class="cpp1-float">3.14F</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> compute</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> x</span><span class="cpp1-symbol">,</span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> rectangle implements area 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> compute</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> x</span><span class="cpp1-symbol">,</span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">return</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> circle implements area1 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> compute</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> x</span><span class="cpp1-symbol">,</span><span class="cpp1-reservedword">float</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">return</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">pi</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> area 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[])</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+rectangle rect</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> rectangle</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+circle cir</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> circle</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+area1 ar</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+ar</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">rect</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;area of rectangle=&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">ar</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">compute </span><span class="cpp1-symbol">(</span><span class="cpp1-number">10</span><span class="cpp1-symbol">,</span><span class="cpp1-number">20</span><span class="cpp1-symbol">));</span><span class="cpp1-space"> 
+ar</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">cir</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;area of circle=&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">ar</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">compute</span><span class="cpp1-symbol">(</span><span class="cpp1-number">10</span><span class="cpp1-symbol">,</span><span class="cpp1-number">0</span><span class="cpp1-symbol">));</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}}</span><span class="cpp1-space"> 
+
+3b</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implementation of pre</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">defined interface</span><span class="cpp1-symbol">:
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Person implements Comparable
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> String name</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> String lastName</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> Person</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String name</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> String lastName</span><span class="cpp1-symbol">)
+{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">name</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">name</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">lastName</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">lastName</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> String getName</span><span class="cpp1-symbol">()
+{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> name</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> String getLastName</span><span class="cpp1-symbol">()
+{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> lastName</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> compareTo</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Person p</span><span class="cpp1-symbol">)
+{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">name</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">compareTo</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">p</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getName</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String arg</span><span class="cpp1-symbol">[])
+{</span><span class="cpp1-space"> 
+List myList </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> ArrayList</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+myList</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">add</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Person</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Robert&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;USA&quot;</span><span class="cpp1-symbol">));</span><span class="cpp1-space"> 
+myList</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">add</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Person</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Andy&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;UK&quot;</span><span class="cpp1-symbol">));</span><span class="cpp1-space"> 
+myList</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">add</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Person</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Harish&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;India&quot;</span><span class="cpp1-symbol">));</span><span class="cpp1-space"> 
+Collections</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">sort</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">myList</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Person person </span><span class="cpp1-symbol">:</span><span class="cpp1-space"> myList</span><span class="cpp1-symbol">)
+{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;My name is &quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">person</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getName</span><span class="cpp1-symbol">());</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-illegalchar">3C</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> Implementation of packages</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">package pack</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> balance 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+string name</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> bal</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> balance</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String n</span><span class="cpp1-symbol">,</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> b</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+name</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">n</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+bal</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> show</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">bal</span><span class="cpp1-symbol">&lt;</span><span class="cpp1-number">0</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">print</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;--&gt;&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">name</span><span class="cpp1-symbol">+</span><span class="cpp1-string">&quot;:$&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">bal</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+import pack</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> accountbalance 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String arg</span><span class="cpp1-symbol">[])</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+balance current</span><span class="cpp1-symbol">[]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> balance</span><span class="cpp1-symbol">[</span><span class="cpp1-number">3</span><span class="cpp1-symbol">];</span><span class="cpp1-space"> 
+current</span><span class="cpp1-symbol">[</span><span class="cpp1-number">0</span><span class="cpp1-symbol">]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> balance</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;K.J.Fielding&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-float">123.23</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+current</span><span class="cpp1-symbol">[</span><span class="cpp1-number">1</span><span class="cpp1-symbol">]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> balance</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Will tell&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-float">157.02</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+current</span><span class="cpp1-symbol">[</span><span class="cpp1-number">2</span><span class="cpp1-symbol">]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> balance</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Tom jackson&quot;</span><span class="cpp1-symbol">,-</span><span class="cpp1-float">12.33</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">&lt;</span><span class="cpp1-number">3</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">++)
+</span><span class="cpp1-space"> current</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">].</span><span class="cpp1-identifier">show</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-number">4</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> Implement the concept of exception handling </span><span class="cpp1-reservedword">using</span><span class="cpp1-space"> predefined exception</span><span class="cpp1-symbol">:
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> error </span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[])</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> a</span><span class="cpp1-symbol">=</span><span class="cpp1-number">10</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> b</span><span class="cpp1-symbol">=</span><span class="cpp1-number">5</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">=</span><span class="cpp1-number">5</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> x</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">try</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+x</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">/(</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ArithmeticException e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;division by zero&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+y</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">/(</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;y&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-number">5</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> Implement the concept of exception handling by creating user defined exceptions</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">io</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> JavaException
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[])
+{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">try</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">throw</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> MyException</span><span class="cpp1-symbol">(</span><span class="cpp1-number">2</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-comment">// throw is used to create a new exception and throw it. 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">MyException e</span><span class="cpp1-symbol">)
+{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> MyException extends Exception
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> a</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+MyException</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> b</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+a</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> String toString</span><span class="cpp1-symbol">()
+{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">return</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Exception Number = &quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-illegalchar">6A</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implement multithreading concepts</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import java io</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Th1 extends Thread 
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> run</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">try</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+thread</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">sleep</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1000</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out </span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-illegalchar">&acirc;&euro;œname</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">elan&acirc;&euro;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out println</span><span class="cpp1-symbol">(</span><span class="cpp1-illegalchar">&acirc;&euro;œage</span><span class="cpp1-symbol">:</span><span class="cpp1-number">19</span><span class="cpp1-illegalchar">&acirc;&euro;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">InterruptedException i</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{}
+}}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Th2 extends Thread 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> run</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">try</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+thread</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">sleep</span><span class="cpp1-symbol">(</span><span class="cpp1-number">2000</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out </span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-illegalchar">&acirc;&euro;œ</span><span class="cpp1-reservedword">class</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">tech I</span><span class="cpp1-symbol">&gt;</span><span class="cpp1-identifier">T&acirc;&euro;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out println</span><span class="cpp1-symbol">(</span><span class="cpp1-illegalchar">&acirc;&euro;œcol</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">MKCE&acirc;&euro;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">InterruptedException i</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{}
+}}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Th3 extends Thread 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> run</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">try</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+thread</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">sleep</span><span class="cpp1-symbol">(</span><span class="cpp1-number">3000</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out </span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-illegalchar">&acirc;&euro;œplace</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Karur&acirc;&euro;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out println</span><span class="cpp1-symbol">(</span><span class="cpp1-illegalchar">&acirc;&euro;œarea</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Thalavapalayam&acirc;&euro;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">InterruptedException i</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{}
+}}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> thdemo 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[</span><span class="cpp1-space"> </span><span class="cpp1-symbol">])</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+Th1 t1</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Th1</span><span class="cpp1-symbol">(</span><span class="cpp1-space"> </span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+t1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">start</span><span class="cpp1-symbol">(</span><span class="cpp1-space"> </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+Th2 t2</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Th2</span><span class="cpp1-symbol">(</span><span class="cpp1-space"> </span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+t2</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">start</span><span class="cpp1-symbol">(</span><span class="cpp1-space"> </span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+Th3 t3</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Th3</span><span class="cpp1-symbol">(</span><span class="cpp1-space"> </span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+t3</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">start</span><span class="cpp1-symbol">(</span><span class="cpp1-space"> </span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}}
+</span><span class="cpp1-illegalchar">6B</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implementation of multithreading in java</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">io</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Newthread extends Thread 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+Newthread</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+super</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;DemoThread&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Child Thread:&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+start</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> run</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">try</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-number">5</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">&gt;</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">--)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;child thread:&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+Thread</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">sleep</span><span class="cpp1-symbol">(</span><span class="cpp1-number">500</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">InterruptedException e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-identifier">System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Child Interrupted&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}
+</span><span class="cpp1-identifier">System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Exiting ChildThread&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> ThreadDemo 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[])</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Newthread</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+Try
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-number">5</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">&gt;</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">--</span><span class="cpp1-space"> </span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;main thread:&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+Thread</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">sleep</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1000</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">InterruptedException e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Main thread Interrupted&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Main thread exiting&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}}
+</span><span class="cpp1-number">7</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implementation of collection interface</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">package pkgif</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+interface Shape 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> PI</span><span class="cpp1-symbol">=</span><span class="cpp1-float">3.14</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> area</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> perimeter</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+interface Showable extends Shape 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> show</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+abstract </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Circle implements Shape 
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> r</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+Circle</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> r</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> area</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;area of circle&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">PI</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Circle1 extends Circle implements Shape</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> Showable 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+Circle1</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> r</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+super</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> area</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;area of circle&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">PI</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> perimeter</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;perimeter of circle&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-number">2</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">PI</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">r</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> show</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;****This is circle****&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> display</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;PI value&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">Shape</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">PI</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Triangle implements Showable 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> a</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">c</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+Triangle</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> a</span><span class="cpp1-symbol">,</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> b</span><span class="cpp1-symbol">,</span><span class="cpp1-reservedword">double</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">c</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">c</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> area</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;area of Triangle&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">/</span><span class="cpp1-number">2</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> perimeter</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;perimeter of Triangle&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">a</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> show</span><span class="cpp1-symbol">()
+</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{
+</span><span class="cpp1-identifier">System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;****This is triangle****&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> If 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String</span><span class="cpp1-symbol">[]</span><span class="cpp1-space"> args</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;****Implementing circle ****&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+Circle1 c</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Circle1</span><span class="cpp1-symbol">(</span><span class="cpp1-float">10.5</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+c</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">area</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+c</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">perimeter</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+c</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">show</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+c</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">display</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;***by reference variable***&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+Shape s</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> s</span><span class="cpp1-symbol">=(</span><span class="cpp1-identifier">Shape</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> </span><span class="cpp1-comment">//Explicit type castingis done because circle1 class is higher 
+</span><span class="cpp1-identifier">than shape interface s</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">area</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+s</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">perimeter</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-comment">// s.display(); not possible to represent this statment because reference variables refers 
+</span><span class="cpp1-identifier">only abstract methods in the interface</span><span class="cpp1-symbol">.</span><span class="cpp1-space"> 
+System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;****Implementing Triangle ****&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+Triangle t</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Triangle</span><span class="cpp1-symbol">(</span><span class="cpp1-float">10.5</span><span class="cpp1-symbol">,</span><span class="cpp1-float">2.2</span><span class="cpp1-symbol">,</span><span class="cpp1-float">3.3</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">area</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">perimeter</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">show</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-number">8</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> Implement conversion of inputstream into byte array</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">io</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">InputStream</span><span class="cpp1-symbol">;
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">util</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">Arrays</span><span class="cpp1-symbol">;
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">io</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">ByteArrayInputStream</span><span class="cpp1-symbol">;
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Main </span><span class="cpp1-symbol">{
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String args</span><span class="cpp1-symbol">[])</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-reservedword">try</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{
+</span><span class="cpp1-comment">// create an input stream
+</span><span class="cpp1-identifier">byte</span><span class="cpp1-symbol">[]</span><span class="cpp1-space"> input </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{</span><span class="cpp1-number">1</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-number">2</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-number">3</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-number">4</span><span class="cpp1-symbol">};
+</span><span class="cpp1-identifier">InputStream stream </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> ByteArrayInputStream</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">input</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Input Stream: &quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> stream</span><span class="cpp1-symbol">);
+</span><span class="cpp1-comment">// convert the input stream to byte array
+</span><span class="cpp1-identifier">byte</span><span class="cpp1-symbol">[]</span><span class="cpp1-space"> array </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> stream</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">readAllBytes</span><span class="cpp1-symbol">();
+</span><span class="cpp1-identifier">System</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">out</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">println</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Byte Array: &quot;</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> Arrays</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">toString</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">array</span><span class="cpp1-symbol">));
+</span><span class="cpp1-identifier">stream</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">close</span><span class="cpp1-symbol">();
+}
+</span><span class="cpp1-reservedword">catch</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Exception e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-identifier">e</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getStackTrace</span><span class="cpp1-symbol">();
+}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-number">9</span><span class="cpp1-symbol">:</span><span class="cpp1-space"> Implement a simple calculator</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">awt</span><span class="cpp1-symbol">.*;
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">awt</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">event</span><span class="cpp1-symbol">.*;
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">applet</span><span class="cpp1-symbol">.*;
+</span><span class="cpp1-comment">/*
+&lt;applet code=&quot;Calculator1&quot; width=300 height=300&gt;
+&lt;/applet&gt;
+*/
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Calculator1 extends Applet implements ActionListener
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-identifier">TextField t</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+Button b</span><span class="cpp1-symbol">[]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Button</span><span class="cpp1-symbol">[</span><span class="cpp1-number">15</span><span class="cpp1-symbol">];
+</span><span class="cpp1-identifier">Button b1</span><span class="cpp1-symbol">[]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Button</span><span class="cpp1-symbol">[</span><span class="cpp1-number">6</span><span class="cpp1-symbol">];
+</span><span class="cpp1-identifier">String op2</span><span class="cpp1-symbol">[]={</span><span class="cpp1-string">&quot;+&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;-&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;*&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;%&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;=&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-string">&quot;C&quot;</span><span class="cpp1-symbol">};
+</span><span class="cpp1-identifier">String str1</span><span class="cpp1-symbol">=</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">;
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> p</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;
+</span><span class="cpp1-identifier">String oper</span><span class="cpp1-symbol">;
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> init</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-identifier">setLayout</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> GridLayout</span><span class="cpp1-symbol">(</span><span class="cpp1-number">5</span><span class="cpp1-symbol">,</span><span class="cpp1-number">4</span><span class="cpp1-symbol">));
+</span><span class="cpp1-space"> t</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> TextField</span><span class="cpp1-symbol">(</span><span class="cpp1-number">20</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">setBackground</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Color</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">pink</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">setFont</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Font</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Arial&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-identifier">Font</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">BOLD</span><span class="cpp1-symbol">,</span><span class="cpp1-number">20</span><span class="cpp1-symbol">));
+</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> k</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;
+</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setEditable</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">false</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setBackground</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Color</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">white</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;0&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">&lt;</span><span class="cpp1-number">10</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">++)
+{
+</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Button</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">k</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">add</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">]);
+</span><span class="cpp1-identifier">k</span><span class="cpp1-symbol">++;
+</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">].</span><span class="cpp1-identifier">setBackground</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Color</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">pink</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">b</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">].</span><span class="cpp1-identifier">addActionListener</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">);
+}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">for</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> i</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">&lt;</span><span class="cpp1-number">6</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">++)
+{
+</span><span class="cpp1-identifier">b1</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">]=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Button</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">op2</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">]);
+</span><span class="cpp1-identifier">add</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">b1</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">]);
+</span><span class="cpp1-identifier">b1</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">].</span><span class="cpp1-identifier">setBackground</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Color</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">pink</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">b1</span><span class="cpp1-symbol">[</span><span class="cpp1-identifier">i</span><span class="cpp1-symbol">].</span><span class="cpp1-identifier">addActionListener</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">);
+}
+</span><span class="cpp1-identifier">add</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> actionPerformed</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">ActionEvent ae</span><span class="cpp1-symbol">)
+{
+</span><span class="cpp1-identifier">String str</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">ae</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getActionCommand</span><span class="cpp1-symbol">();
+</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;+&quot;</span><span class="cpp1-symbol">))
+{</span><span class="cpp1-space"> 
+ p</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());</span><span class="cpp1-space"> 
+oper</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str1</span><span class="cpp1-symbol">=</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;-&quot;</span><span class="cpp1-symbol">))
+{</span><span class="cpp1-space"> 
+p</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());
+</span><span class="cpp1-identifier">oper</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str1</span><span class="cpp1-symbol">=</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;*&quot;</span><span class="cpp1-symbol">))
+{</span><span class="cpp1-space"> 
+p</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());
+</span><span class="cpp1-identifier">oper</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str1</span><span class="cpp1-symbol">=</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">);
+}
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%&quot;</span><span class="cpp1-symbol">))
+{</span><span class="cpp1-space"> 
+p</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());
+</span><span class="cpp1-identifier">oper</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str1</span><span class="cpp1-symbol">=</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">);
+}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;=&quot;</span><span class="cpp1-symbol">))</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{</span><span class="cpp1-space"> str1</span><span class="cpp1-symbol">=</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">oper</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;+&quot;</span><span class="cpp1-symbol">))</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());
+</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">valueOf</span><span class="cpp1-symbol">((</span><span class="cpp1-identifier">p</span><span class="cpp1-symbol">+</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">)));}
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">oper</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;-&quot;</span><span class="cpp1-symbol">))</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{
+</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());
+</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">valueOf</span><span class="cpp1-symbol">((</span><span class="cpp1-identifier">p</span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">)));</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">oper</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;*&quot;</span><span class="cpp1-symbol">))
+{
+</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());
+</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">valueOf</span><span class="cpp1-symbol">((</span><span class="cpp1-identifier">p</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">)));</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">oper</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;%&quot;</span><span class="cpp1-symbol">)){
+</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">Integer</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">parseInt</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">());
+</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">valueOf</span><span class="cpp1-symbol">((</span><span class="cpp1-identifier">p</span><span class="cpp1-symbol">%</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">)));</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">if</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">equals</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;C&quot;</span><span class="cpp1-symbol">)){</span><span class="cpp1-space"> p</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-identifier">q</span><span class="cpp1-symbol">=</span><span class="cpp1-number">0</span><span class="cpp1-symbol">;
+</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-identifier">str1</span><span class="cpp1-symbol">=</span><span class="cpp1-string">&quot;&quot;</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;0&quot;</span><span class="cpp1-symbol">);
+}</span><span class="cpp1-space"> 
+Else
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">concat</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">str</span><span class="cpp1-symbol">));
+</span><span class="cpp1-identifier">str1</span><span class="cpp1-symbol">=</span><span class="cpp1-identifier">t</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">getText</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+
+</span><span class="cpp1-illegalchar">10A</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implement of Mouse events</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import javax</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">swing</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">awt</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+import javax</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">swing</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">event</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">awt</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">event</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> A extends JFrame implements MouseListener 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+JLabel l1</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> A</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+setDefaultCloseOperation</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">JFrame</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">EXIT_ON_CLOSE</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+setSize</span><span class="cpp1-symbol">(</span><span class="cpp1-number">400</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-number">400</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+setLayout</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> GridBagLayout</span><span class="cpp1-symbol">());</span><span class="cpp1-space"> 
+l1 </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> JLabel</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+Font f </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Font</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Verdana&quot;</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> Font</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">BOLD</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-number">20</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setFont</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">f</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setForeground</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Color</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">BLUE</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setAlignmentX</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Component</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">CENTER_ALIGNMENT</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setAlignmentY</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">Component</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">CENTER_ALIGNMENT</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+add</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">l1</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+addMouseListener</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+setVisible</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">true</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> mouseExited</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">MouseEvent m</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mouse Exited&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> mouseEntered</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">MouseEvent m</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mouse Entered&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> mouseReleased</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">MouseEvent m</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mouse Released&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> mousePressed</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">MouseEvent m</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mouse Pressed&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> mouseClicked</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">MouseEvent m</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l1</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Mouse Clicked&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> Mevents 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String</span><span class="cpp1-symbol">[]</span><span class="cpp1-space"> args</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+A a </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> A</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span><span class="cpp1-illegalchar">10B</span><span class="cpp1-symbol">:</span><span class="cpp1-identifier">Implementation of keyboard event</span><span class="cpp1-symbol">:
+</span><span class="cpp1-identifier">import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">awt</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+import java</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">awt</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">event</span><span class="cpp1-symbol">.*;</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">class</span><span class="cpp1-space"> KeyListenerExample extends Frame implements KeyListener
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+Label l</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+TextArea area</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+KeyListenerExample</span><span class="cpp1-symbol">()
+{</span><span class="cpp1-space"> 
+l</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> Label</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+l</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setBounds</span><span class="cpp1-symbol">(</span><span class="cpp1-number">20</span><span class="cpp1-symbol">,</span><span class="cpp1-number">50</span><span class="cpp1-symbol">,</span><span class="cpp1-number">100</span><span class="cpp1-symbol">,</span><span class="cpp1-number">20</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+area</span><span class="cpp1-symbol">=</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> TextArea</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+area</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setBounds</span><span class="cpp1-symbol">(</span><span class="cpp1-number">20</span><span class="cpp1-symbol">,</span><span class="cpp1-number">80</span><span class="cpp1-symbol">,</span><span class="cpp1-number">300</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-number">300</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+area</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">addKeyListener</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">this</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+add</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">l</span><span class="cpp1-symbol">);</span><span class="cpp1-identifier">add</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">area</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+setSize</span><span class="cpp1-symbol">(</span><span class="cpp1-number">400</span><span class="cpp1-symbol">,</span><span class="cpp1-number">400</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+setLayout</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">null</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+setVisible</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">true</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> keyPressed</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">KeyEvent e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Key Pressed&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> keyReleased</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">KeyEvent e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Key Released&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> keyTyped</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">KeyEvent e</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+l</span><span class="cpp1-symbol">.</span><span class="cpp1-identifier">setText</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Key Typed&quot;</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">public</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">static</span><span class="cpp1-space"> </span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> main</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">String</span><span class="cpp1-symbol">[]</span><span class="cpp1-space"> args</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">{</span><span class="cpp1-space"> 
+</span><span class="cpp1-reservedword">new</span><span class="cpp1-space"> KeyListenerExample</span><span class="cpp1-symbol">();</span><span class="cpp1-space"> 
+</span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}</span><span class="cpp1-space"> </span><span class="cpp1-symbol">}
+</span></span>
+</code></pre>
+</body>
+</html>
